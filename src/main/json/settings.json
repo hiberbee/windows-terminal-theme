@@ -14,7 +14,7 @@
       "cursorShape": "emptyBox",
       "acrylicOpacity": 0.7,
       "background": "#191919",
-      "backgroundImageOpacity": 0.4,
+      "backgroundImageOpacity": 0.2,
       "colorScheme": "Hiberbee",
       "fontFace": "FiraCodeRetina",
       "fontSize": 10,
@@ -23,7 +23,7 @@
       "padding": "5,5,5,5",
       "scrollbarState": "hidden",
       "startingDirectory": "x:",
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
@@ -83,7 +83,7 @@
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Fedora.jpg"
       },
       {
-        "guid": "{69caa5bb-8a79-444b-b1dd-07ffe7a23e9b}",
+        "guid": "{4d4cc780-cacb-5b6f-a183-29b5f6cdcd23}",
         "name": "CentOS",
         "source": "Windows.Terminal.Wsl",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/centos.png",
@@ -175,8 +175,16 @@
       "keys": "ctrl+shift+d"
     },
     {
-      "command": "closePane",
+      "command": "closeTab",
       "keys": "ctrl+w"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+shift+q"
+    },
+    {
+      "command": "closeWindow",
+      "keys": "ctrl+shift+q"
     }
   ]
 }
