@@ -1,0 +1,183 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/terminal/release-1.1/doc/cascadia/profiles.schema.json",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "copyOnSelect": false,
+  "copyFormatting": false,
+  "initialPosition": "-5,-1",
+  "initialCols": 253,
+  "initialRows": 30,
+  "tabWidthMode": "compact",
+  "theme": "dark",
+  "confirmCloseAllTabs": true,
+  "profiles": {
+    "defaults": {
+      "cursorShape": "emptyBox",
+      "acrylicOpacity": 0.7,
+      "background": "#191919",
+      "backgroundImageOpacity": 0.4,
+      "colorScheme": "Hiberbee",
+      "fontFace": "FiraCodeRetina",
+      "fontSize": 10,
+      "fontWeight": "medium",
+      "hidden": false,
+      "padding": "5,5,5,5",
+      "scrollbarState": "hidden",
+      "startingDirectory": "x:",
+      "useAcrylic": true
+    },
+    "list": [
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/shell.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Windows-Blue.jpg"
+      },
+      {
+        "guid": "{1a3e0431-113c-4cb7-93d6-fcb3ec34ec6e}",
+        "name": "PowerShell Root",
+        "commandline": "gsudo pwsh",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/shell-root.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Windows-Red.jpg"
+      },
+      {
+        "commandline": "gsudo minikube ssh",
+        "guid": "{b2e49ad1-d718-4c5a-8a1a-5825c829e703}",
+        "name": "Minikube",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/minikube.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Kubernetes.jpg"
+      },
+      {
+        "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+        "name": "Debian",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/debian.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Debian.jpg"
+      },
+      {
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "name": "Ubuntu",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/ubuntu.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Ubuntu.jpg"
+      },
+      {
+        "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+        "name": "Alpine",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/alpine.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Alpine.jpg"
+      },
+      {
+        "guid": "{ce8954b9-a74b-46ae-8893-469f13def34f}",
+        "name": "OpenSUSE",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/opensuse.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/OpenSUSE.jpg"
+      },
+      {
+        "guid": "{75a12520-b59a-4363-acd6-cc7812e82952}",
+        "name": "Fedora",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/fedora.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Fedora.jpg"
+      },
+      {
+        "guid": "{69caa5bb-8a79-444b-b1dd-07ffe7a23e9b}",
+        "name": "CentOS",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/centos.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/CentOS.jpg"
+      },
+      {
+        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+        "name": "Kali",
+        "source": "Windows.Terminal.Wsl",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/icons/kali.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/src/main/resources/backgrounds/Kali.jpg"
+      },
+      {
+        "guid": "{342eaa22-06b2-5df7-b78e-a6046a4926db}",
+        "name": "Void",
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": true,
+        "name": "PowerShell",
+        "commandline": "powershell.exe"
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Command Prompt",
+        "hidden": true,
+        "commandline": "cmd.exe"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Hiberbee",
+      "black": "#333333",
+      "red": "#EE7762",
+      "green": "#A9DC76",
+      "yellow": "#FFD866",
+      "blue": "#409CFF",
+      "purple": "#a89fec",
+      "cyan": "#70D7FF",
+      "white": "#F9F6EF",
+      "brightBlack": "#b3b3b3",
+      "brightRed": "#F25022",
+      "brightGreen": "#7FBA00",
+      "brightYellow": "#FFB900",
+      "brightBlue": "#00A4EF",
+      "brightPurple": "#A97CF8",
+      "brightCyan": "#66d9ef",
+      "brightWhite": "#ffffff",
+      "background": "#191919",
+      "foreground": "#F9F6EF",
+      "cursorColor": "#ED005C",
+      "selectionBackground": "#1E3C50"
+    }
+  ],
+  "keybindings": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "newTab",
+      "keys": "ctrl+t"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "ctrl+shift+d"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+w"
+    }
+  ]
+}
+
