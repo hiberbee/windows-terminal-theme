@@ -9,21 +9,27 @@
   "tabWidthMode": "compact",
   "theme": "dark",
   "launchMode": "maximized",
+  "snapToGridOnResize": true,
   "confirmCloseAllTabs": true,
+  "disabledProfileSources": [
+    "Windows.Terminal.Wsl"
+  ],
   "profiles": {
     "defaults": {
-      "cursorShape": "emptyBox",
       "acrylicOpacity": 0.7,
       "background": "#191919",
       "backgroundImageOpacity": 0.2,
       "colorScheme": "Hiberbee",
+      "cursorShape": "emptyBox",
       "fontFace": "Fira Code Retina",
       "fontSize": 9,
+      "foreground": "#fff",
       "hidden": false,
+      "name": "Hiberbee",
       "padding": "5,5,5,5",
       "scrollbarState": "hidden",
       "startingDirectory": "x:",
-      "useAcrylic": false
+      "useAcrylic": true
     },
     "list": [
       {
@@ -31,16 +37,14 @@
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/shell.png",
-        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Windows-Blue.jpg",
-        "startingDirectory": "X:"
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Windows.jpg"
       },
       {
         "guid": "{1a3e0431-113c-4cb7-93d6-fcb3ec34ec6e}",
         "name": "PowerShell Root",
         "commandline": "gsudo pwsh",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/shell-root.png",
-        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Windows-Red.jpg",
-        "startingDirectory": "X:"
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Windows-Red.jpg"
       },
       {
         "commandline": "minikube ssh",
@@ -52,42 +56,35 @@
       {
         "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
         "name": "Debian",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d debian",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/debian.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Debian.jpg"
       },
       {
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "name": "Ubuntu",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d ubuntu",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/ubuntu.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Ubuntu.jpg"
       },
       {
-        "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
-        "name": "Alpine",
-        "source": "Windows.Terminal.Wsl",
-        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/alpine.png",
-        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Alpine.jpg"
-      },
-      {
         "guid": "{ce8954b9-a74b-46ae-8893-469f13def34f}",
         "name": "OpenSUSE",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d opensuse",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/opensuse.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/OpenSUSE.jpg"
       },
       {
         "guid": "{75a12520-b59a-4363-acd6-cc7812e82952}",
         "name": "Fedora",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d fedora",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/fedora.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Fedora.jpg"
       },
       {
         "guid": "{4d4cc780-cacb-5b6f-a183-29b5f6cdcd23}",
         "name": "CentOS",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d centos",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/centos.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/CentOS.jpg"
       },
@@ -99,23 +96,18 @@
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/RedHat.jpg"
       },
       {
-        "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-        "name": "Kali",
-        "source": "Windows.Terminal.Wsl",
-        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/kali.png",
-        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Kali.jpg"
+        "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+        "name": "Alpine",
+        "commandline": "wsl -d alpine",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/alpine.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Alpine.jpg"
       },
       {
         "guid": "{f271f22d-ee4f-58cc-85b6-493b36d45ca1}",
         "name": "Amazon",
-        "source": "Windows.Terminal.Wsl",
+        "commandline": "wsl -d amazon",
         "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/amazon.png",
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/Amazon.jpg"
-      },
-      {
-        "guid": "{342eaa22-06b2-5df7-b78e-a6046a4926db}",
-        "name": "Void",
-        "source": "Windows.Terminal.Wsl"
       },
       {
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
