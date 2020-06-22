@@ -92,6 +92,13 @@
         "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/CentOS.jpg"
       },
       {
+        "guid": "{511b766b-2b09-5ea9-a30f-a5a6893dc158}",
+        "name": "RedHat",
+        "commandline": "wsl -d redhat",
+        "icon": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/icons/redhat.png",
+        "backgroundImage": "https://raw.githubusercontent.com/Hiberbee/windows-terminal-theme/master/backgrounds/RedHat.jpg"
+      },
+      {
         "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
         "name": "Kali",
         "source": "Windows.Terminal.Wsl",
