@@ -16,18 +16,13 @@
   ],
   "profiles": {
     "defaults": {
-      "acrylicOpacity": 0.7,
-      "background": "#191919",
       "backgroundImageOpacity": 0.2,
       "colorScheme": "Hiberbee",
       "cursorShape": "emptyBox",
       "fontFace": "Fira Code Retina",
       "fontSize": 9,
-      "foreground": "#fff",
       "hidden": false,
       "name": "Hiberbee",
-      "padding": "5,5,5,5",
-      "scrollbarState": "hidden",
       "startingDirectory": "x:",
       "useAcrylic": true
     },
@@ -148,9 +143,9 @@
       "brightPurple": "#A97CF8",
       "brightCyan": "#66d9ef",
       "brightWhite": "#ffffff",
-      "background": "#191919",
+      "background": "#000000",
       "foreground": "#F9F6EF",
-      "cursorColor": "#ED005C",
+      "cursorColor": "#FFB900",
       "selectionBackground": "#1E3C50"
     }
   ],
